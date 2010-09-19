@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3243
+
+Turns VIM into an asp.net IDE!
+
+Features
+-------------
+* ASPHelp - F1: Jump to online help based on selected word.
+* ASPBuild - <leader>ab: Find a solution file for the project and build. Errors shown in quickfix.
+* ASPAltFile - <leader>af: Navigate to alternate files (ASPX <-> code-behind).
+* ASPRun - F5: Run app in local webserver and navigate to selected page.
+* ASPGoTo - <leader>ag: Go to class file based on name.
+
+Screencast of how to use this plugin:
+http://www.youtube.com/watch?v=9lYgblj1tc0
+
+Notes:
+--------
+*For those new to vim, <leader> is a backslash by default.
+*You may need to have VS.NET installed for ASPRun to work. Not sure if the local web server gets installed with just the framework.
+*The  ASPBuild and ASPRun features only work on windows. With a few tweaks this could work nicely for mono on linux though...
+
+Patches welcome, github location:
+git://github.com/bryanthankins/vim-aspnetide.git
